@@ -1,4 +1,4 @@
-package Atv_1;
+package Atv_1_1;
 
 public class celular {
     private processador prc;
@@ -11,7 +11,7 @@ public class celular {
     }
 
     public void liga_tela() {
-        tlt.setLigada(true);
+        tlt.desliga_inatividade();
     }
 
     public void overclock() {

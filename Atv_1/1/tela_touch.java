@@ -1,11 +1,15 @@
-package Atv_1;
+package Atv_1_1;
 
 public class tela_touch {
     public boolean ligada;
     private int brilho;
 
-    public void setLigada(boolean pLigada) {
+    private void setLigada(boolean pLigada) {
         ligada = pLigada;
+    }
+
+    public void desliga_inatividade() {
+        setLigada(false);
     }
 
     public boolean getLigada() {

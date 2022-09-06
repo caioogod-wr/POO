@@ -1,11 +1,15 @@
-package Atv_1;
+package Atv_1_1;
 
 public class sistema_de_som {
     public int volume;
     private String dispositivo_saida;
 
-    public void setVolume(int pVol) {
+    private void setVolume(int pVol) {
         volume = pVol;
+    }
+
+    public void mutar() {
+        setVolume(0);
     }
 
     public int getVolume() {

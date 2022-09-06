@@ -1,14 +1,18 @@
-package Atv_1;
+package Atv_1_1;
 
 public class sistema_de_comunicacao {
-    public float frequencia_internet;
+    public double frequencia_internet;
     private boolean conectado;
 
-    public void setFrequencia(float pFreq) {
+    private void setFrequencia(double pFreq) {
         frequencia_internet = pFreq;
     }
 
-    public float getFrequenciaInternet() {
+    public void define_frequencia_padrao() {
+        setFrequencia(97.3);
+    }
+
+    public double getFrequenciaInternet() {
         return frequencia_internet;
     }
 
