@@ -1,4 +1,0 @@
-    A fim de detectar o erro ocorrido mais precisamente, cria-se vários blocos "catch". Assim, é possível especificar o tipo de exceção causada e enviar uma mensagem 
-de erro ao usuário mais informativa. Isso deve ser feito sempre deixando a classe de exceção mais abrangente (ou mais acima na hierarquia) no "catch" subsequente.
-Ou seja, uma instanciação da classe "Exception", caso seja utilizada, sempre deve ser o argumento do último "catch". Isso se deve pois o compilador verifica os
-"catch" em ordem, do primeiro ao último. O sistema seleciona o primeiro "catch" no qual a exceção ocorrida se encaixa e ignora o resto.

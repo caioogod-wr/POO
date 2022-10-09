@@ -1,3 +1,0 @@
-        O bloco "finally" é colocado após os blocos "catch" e as linhas dentro dele são sempre executadas, havendo ou não uma excecão. Ele pode ser usado, por exemplo,
-    quando estamos lidando com arquivos. Nesse caso, o bloco "finally" pode conter a instrução para fechar o arquivo. Isso é útil pois permite generalizar a execução
-    de um comando caso ocorra uma exceção ou não.
