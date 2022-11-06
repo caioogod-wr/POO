@@ -6,6 +6,10 @@ package projeto1;
  * @since 1.0
  */
 public class Bullet extends Entity {
+    /**velocidade horizontal do objeto*/
+    protected int Vx;
+    /** velocidade vertical do objeto*/
+    protected int Vy;
     
     /**Construtor da classe; especifica coordenadas do objeto
      * @param x coordenada horizontal do objeto
