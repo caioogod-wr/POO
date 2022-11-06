@@ -5,7 +5,7 @@ package projeto1;
  * @version 1.3
  * @since 1.0
  */
-public class Screen implements Cloneable {
+public class Screen {
     /**tamanho horizontal da tela (quantidade de "pixels" que compõe a tela na horizontal)*/
     protected int x;
     /**tamanho vertical da tela (quantidade de "pixels" que compõe a tela na vertical)*/

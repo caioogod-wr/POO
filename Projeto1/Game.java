@@ -13,7 +13,7 @@ public class Game {
     /**variável que guardará input do jogador*/
     protected String input;
     /**objeto da classe "Scanner" para receber input do teclado*/
-    Scanner sc;
+    protected Scanner sc;
     
     /**objeto que representa a tela do jogo*/
     protected Screen screen;
