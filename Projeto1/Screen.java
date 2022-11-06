@@ -5,7 +5,7 @@ package projeto1;
  * @version 1.3
  * @since 1.0
  */
-public class Screen {
+public class Screen implements Cloneable {
     /**tamanho horizontal da tela (quantidade de "pixels" que compõe a tela na horizontal)*/
     protected int x;
     /**tamanho vertical da tela (quantidade de "pixels" que compõe a tela na vertical)*/
@@ -13,9 +13,6 @@ public class Screen {
     
     /**matriz de pixels que compõe a tela*/
     protected Pixel [][] pixels;
-    
-    /**matriz de pixels na qual todos os pixels possuem a imagem "default"; é utilizada para limpar a tela ("resetar" as imagens dos pixels)*/
-    protected Pixel [][] clean_screen;
     
     /**Construtor da classe
      * @param x tamanho horizontal da tela
@@ -25,11 +22,9 @@ public class Screen {
         this.x = x;
         this.y = y;
         pixels = new Pixel [y][x];
-        clean_screen = new Pixel [y][x];
         for(int i = 0; i < y; i++) {
             for(int j = 0; j < x; j++) {
                 pixels[i][j] = new Pixel();
-                clean_screen[i][j] = new Pixel();
             }
         }
     }
@@ -71,7 +66,7 @@ public class Screen {
     public void CleanScreen() {
         for(int i = 0; i < y; i++)
             for(int j = 0; j < x; j++)
-                pixels[i][j].setImage(clean_screen[i][j].getImage());
+                pixels[i][j].setImage("-");
     }
     
 }
