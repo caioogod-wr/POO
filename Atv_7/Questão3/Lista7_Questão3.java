@@ -15,19 +15,19 @@ public class Lista7_Questão3 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Arvore arv = new Arvore("Caio");
+        Arvore arv = new Arvore("Batata");
         arv.ImprimeOrdenado();
-        arv.Insere("Hugo");
+        arv.Insere("Limao");
         arv.ImprimeOrdenado();
-        arv.Insere("Chiarotto");
-        arv.Insere("Cecagol");
-        arv.Insere("Arthur");
-        arv.Insere("Daniel");
+        arv.Insere("Maça");
+        arv.Insere("Banana");
+        arv.Insere("Chocolate");
+        arv.Insere("Mamao");
         arv.ImprimeOrdenado();
-        arv.Busca("Caio");
-        arv.Busca("Robson");
-        arv.Insere("Zacarias");
-        arv.Remove("Hugo");
+        arv.Busca("Batata");
+        arv.Busca("Cha");
+        arv.Insere("Leite");
+        arv.Remove("Maca");
         arv.ImprimeOrdenado();
         
     }
