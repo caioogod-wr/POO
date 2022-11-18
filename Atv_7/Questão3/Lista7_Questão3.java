@@ -19,7 +19,7 @@ public class Lista7_Questão3 {
         arv.ImprimeOrdenado();
         arv.Insere("Limao");
         arv.ImprimeOrdenado();
-        arv.Insere("Maça");
+        arv.Insere("Inhame");
         arv.Insere("Banana");
         arv.Insere("Chocolate");
         arv.Insere("Mamao");
@@ -27,7 +27,7 @@ public class Lista7_Questão3 {
         arv.Busca("Batata");
         arv.Busca("Cha");
         arv.Insere("Leite");
-        arv.Remove("Maca");
+        arv.Remove("Inhame");
         arv.ImprimeOrdenado();
         
     }
