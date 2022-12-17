@@ -17,7 +17,7 @@ import java.net.Socket;
  *
  * @author caioo
  */
-public class Servidor {
+public class Lista11_Questao3_Servidor {
 
     static void fecha_servidor(BufferedReader RECEBE, PrintWriter ENVIA, Socket SERVIDOR_SOCKET, ServerSocket OUVIDO, BufferedReader INPUT) throws IOException {
         RECEBE.close();
