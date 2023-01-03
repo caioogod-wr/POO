@@ -37,8 +37,8 @@ int main() {
     auto tempo_final = chrono::high_resolution_clock::now();
 
     // Calcula tempo de execução
-    auto duracao = chrono::duration_cast<chrono::microseconds>(tempo_final-tempo_inicial);
-    cout << "Tempo de execucao: " << duracao.count() << endl;
+    auto duracao = chrono::duration_cast<chrono::seconds>(tempo_final-tempo_inicial);
+    cout << "Tempo de execucao: " << duracao.count() << " segundos" << endl;
 
     return 0;
 }
